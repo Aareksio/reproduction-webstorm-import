@@ -14,3 +14,7 @@ Non-Bundled Plugins: com.wakatime.intellij.plugin, net.codestats.plugin.atom.int
 ```
 
 ![](reproduction.gif)
+
+#### Notes
+- `tsconfig.json` is not required, but lack of `experimentalDecorators: true` causes warning to pop up
+- Other affected modules include: `routing-controllers`
